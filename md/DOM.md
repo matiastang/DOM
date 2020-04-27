@@ -3,6 +3,8 @@
 
 # DOM
 
+[文档](DOM：文档https://dom.spec.whatwg.org)
+
 ## 什么是 DOM？
 
 * DOM 是 W3C（万维网联盟） 的推荐标准。
