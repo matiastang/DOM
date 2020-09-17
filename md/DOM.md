@@ -3,6 +3,7 @@
 
 # DOM
 
+[什么是 DOM?](https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model/Introduction)
 [文档](DOM：文档https://dom.spec.whatwg.org)
 
 ## 什么是 DOM？
@@ -22,6 +23,14 @@
 > 用于 HTML 文档的标准模型
 
 * DOM 定义了所有文档元素的对象和属性，以及访问它们的方法（接口）。
+
+开始的时候，JavaScript和DOM是交织在一起的，但它们最终演变成了两个独立的实体。JavaScript可以访问和操作存储在DOM中的内容，因此我们可以写成这个近似的等式：
+
+API (web 或 XML 页面) = DOM + JS (脚本语言)
+
+DOM 被设计成与特定编程语言相独立，使文档的结构化表述可以通过单一，一致的API获得。尽管我们在本参考文档中会专注于使用JavaScript， 但DOM 也可以使用其他的语言来实现
+
+在DOM编程时，通常使用的最多的就是 Document 和 window 对象。简单的说， window 对象表示浏览器中的内容，而 document 对象是文档本身的根节点。Element 继承了通用的 Node 接口,  将这两个接口结合后就提供了许多方法和属性可以供单个元素使用。
 
 ## 什么是 XML DOM?
 
